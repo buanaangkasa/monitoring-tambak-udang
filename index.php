@@ -104,10 +104,10 @@
 
   <div class="container mt-5">
     <?php
-    $servername = "server1.komputasi.org";
-    $username = "komputas_irigasisawahpadi";
-    $password = "kaLjmAWflX";
-    $dbname = "komputas_irigasisawahpadi";
+    $servername = "localhost";
+    $username = "root";
+    $password = "";
+    $dbname = "hehe";
 
     // Create connection
     $conn = new mysqli($servername, $username, $password, $dbname);
